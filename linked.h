@@ -83,15 +83,8 @@ int NbElmt (address p);
 /* Mengirimkan banyaknya elemen list, mengirimkan 0 jika list kosong */
 // Recursif Mode
 
-infotype Min (address p);
-/* Mengirimkan nilai Info(P) yang minimum */
-
-infotype Rerata (address p);
-/* Mengirimkan nilai rata-rata Info(P) */
-
 address BalikList (address p);
 /* IS : p sembarang */
 /* FS : Elemen List dibalik : elemen terakhir menjadi elemen pertama, dst */
-
 
 #endif

@@ -1,6 +1,11 @@
-#include <stdio.h>
-#include "linked.h"
+/* File        : main.c */
+/* Deskripsi   : Kombinasi Array dengan Singular Linked List */
+/* Dibuat oleh: Faris 241524010 */
 
-int main(int argc, char *argv[]) {
+#include "menu.h"
+
+int main() {
+    menu();
+
     return 0;
 }

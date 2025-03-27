@@ -1,14 +1,11 @@
-/* File        : linked.h */
+/* File        : linked.c */
 /* Deskripsi   : ADT linked list dengan representasi fisik pointer */
 /*                 Representasi address dengan pointer */
-/*                 InfoType adalah integer */
+/*                 InfoType adalah pointer char */
 /* Dibuat oleh : Faris */
 
 #ifndef linked_H
 #define linked_H
-#include <stdio.h>
-#include <malloc.h>
-#include "boolean.h"
 
 // Tujuan : memeriksa apakah linked masih kosong
 // Linked list kosong , jika Head == NULL
